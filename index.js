@@ -17,22 +17,10 @@ const comicsRoutes = require("./routes/comics");
 app.use(personageRoutes);
 app.use(comicsRoutes);
 
-// app.get("/user", (req, res) => {
-//   res.status(200).json("Welcome to the personage page");
-// });
-
-app.get("/personage", (req, res) => {
-  res.status(200).json("Welcome to the personage page");
-});
-
-app.get("/comics", (req, res) => {
-  res.status(200).json("Welcome to the comics page");
-});
-
 app.all("*", (req, res) => {
   res.status(404).json({ error: "Page not found" });
 });
 
-app.listen(4000, () => {
+app.listen(3000, () => {
   console.log("Server started");
 });

@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u00001\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u00001\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u00001\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000a\u0000r\u0000v\u0000e\u0000l\u0000_\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u00001\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.0",
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "express-formidable": "^1.2.0",
     "mongoose": "^6.2.1",
     "uid2": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qt1Lsol/marvel_backend1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qt1Lsol/marvel_backend1/issues"
+  },
+  "homepage": "https://github.com/Qt1Lsol/marvel_backend1#readme"
 }
