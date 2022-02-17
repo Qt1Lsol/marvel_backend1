@@ -14,7 +14,7 @@ const personageRoutes = require("./routes/personage");
 const comicsRoutes = require("./routes/comics");
 
 app.get("/", (req, res) => {
-  res.status(404).json({ message: "check heroku" });
+  res.status(200).json({ message: "check heroku" });
 });
 
 // app.use(userRoutes);
