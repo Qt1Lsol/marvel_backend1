@@ -5,6 +5,9 @@ require("dotenv").config();
 
 router.get("/comics/:id", (req, res) => {
   const getComics = async () => {
+    console.log(req.params.id);
+    console.log("tests");
+
     try {
       const response = await axios.get("https://marvelbackendqt1.herokuapp.com/comics/" + req.params.id + "?apiKey=" + process.env.MARVEL_KEY
       );
