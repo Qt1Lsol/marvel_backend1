@@ -9,7 +9,7 @@ router.get("/comics/:id", (req, res) => {
     console.log("tests");
 
     try {
-      const response = await axios.get("https://marvelbackendqt1.herokuapp.com/comics/" + req.params.id + "?apiKey=" + process.env.MARVEL_KEY
+      const response = await axios.get("https://lereacteur-marvel-api.herokuapp.com/comics/" + req.params.id + "?apiKey=" + process.env.MARVEL_KEY
       );
       console.log(response.data);
       console.log("https://lereacteur-marvel-api.herokuapp.com/comics/" + req.params.id + "?apiKey=" + process.env.MARVEL_KEY);
